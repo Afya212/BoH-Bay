@@ -170,6 +170,15 @@
 #define RELIGION_UNATHI_VINE         "Hand of the Vine"
 #define RELIGION_UNATHI_LIGHTS       "The Fruitful Lights"
 
+// Tajara cultures.
+#define CULTURE_TAJARAN   "Temp"
+
+#define HOME_SYSTEM_TAJARAN      "Temps"
+
+#define FACTION_TAJARAN  "Tamp"
+
+#define RELIGION_TAJARAN  "Tamps"
+
 // Nabber grades.
 #define CULTURE_NABBER_CMINUS "Grade C-"
 #define CULTURE_NABBER_C      "Grade C"

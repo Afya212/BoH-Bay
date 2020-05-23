@@ -26,32 +26,38 @@
 
 	sexybits_location = BP_GROIN
 
+	cold_level_1 = 200 //Default 260
+	cold_level_2 = 140 //Default 200
+	cold_level_3 = 80  //Default 120
+
+	heat_level_1 = 330 //Default 360
+	heat_level_2 = 380 //Default 400
+	heat_level_3 = 800 //Default 1000
+
+	heat_discomfort_level = 292
+	heat_discomfort_strings = list(
+		"Your fur prickles in the heat.",
+		"You feel uncomfortably warm.",
+		"Your overheated skin itches."
+		)
+	cold_discomfort_level = 275
 
 	available_cultural_info = list( //I can do ANYTHING! Placeholder until the loreboys come and figure out what Tajara do
 		TAG_CULTURE = list(
-			CULTURE_HUMAN,
-			CULTURE_HUMAN_VATGROWN,
-			CULTURE_HUMAN_MARTIAN,
-			CULTURE_HUMAN_MARSTUN,
-			CULTURE_HUMAN_LUNAPOOR,
-			CULTURE_HUMAN_LUNARICH,
-			CULTURE_HUMAN_VENUSIAN,
-			CULTURE_HUMAN_VENUSLOW,
-			CULTURE_HUMAN_BELTER,
-			CULTURE_HUMAN_PLUTO,
-			CULTURE_HUMAN_EARTH,
-			CULTURE_HUMAN_CETI,
 			CULTURE_HUMAN_SPACER,
 			CULTURE_HUMAN_SPAFRO,
-			CULTURE_HUMAN_CONFED,
-			CULTURE_HUMAN_OTHER,
-			CULTURE_SKRELL_QERR,
-			CULTURE_SKRELL_MALISH,
-			CULTURE_SKRELL_KANIN,
-			CULTURE_SKRELL_TALUM,
-			CULTURE_SKRELL_RASKINTA,
-			CULTURE_UNATHI,
-			CULTURE_SYMBIOTIC
+			CULTURE_HUMAN_OTHER
+		),
+		TAG_HOMEWORLD = list(
+			HOME_SYSTEM_MOGHES   //temp
+		),
+		TAG_FACTION = list(
+			FACTION_SOL_CENTRAL,
+			FACTION_NANOTRASEN
+		),
+		TAG_RELIGION =  list(
+			RELIGION_UNATHI_LIGHTS,  //Temps
+			RELIGION_OTHER
 		)
 	)
 
